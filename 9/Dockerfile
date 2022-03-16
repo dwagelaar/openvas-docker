@@ -1,6 +1,6 @@
 # Start by pulling down our existing container
 # to sync 1.9 Gb of data from OpenVAS.
-FROM mikesplain/openvas
+FROM dwagelaar/openvas:base
 
 FROM ubuntu:16.04
 
